@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotificacionBienvenida">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_marginTop="-40dp"
+        android:src="@drawable/notificacion" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="470dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#F801A6FF"
+        android:text="Welcome!"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:textSize="10dp"
+        android:layout_marginTop="510dp"
+        android:text="@string/bien"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="522dp"
+        android:text="@string/mail"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_iniciar"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/buttonshape"
+        android:text="OK!"
+        android:onClick="login"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp" />
+
+
+</RelativeLayout>

@@ -139,9 +139,45 @@
         android:id="@+id/caracteres"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="540dp"
+
         android:text="@string/caracteres"
+        android:textSize="10dp" />
+    <TextView
+        android:id="@+id/terminos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terminos"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginTop="520dp"
+        android:layout_marginTop="570dp"
+        android:textSize="12dp"
         />
+    <TextView
+    android:id="@+id/terminos1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/terminos1"
+    android:layout_centerHorizontal="true"
+    android:layout_marginStart="50dp"
+    android:layout_marginEnd="50dp"
+    android:layout_marginTop="580dp"
+        android:textColor="#FF6200"
+    android:textSize="12dp"
+    />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_iniciar"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="55dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="605dp"
+        android:background="@drawable/buttonshape"
+        android:text="Create account"
+        android:textColor="#FFFFFF"
+        android:onClick="notificacionBienve"
+        android:textSize="10sp" />
 </RelativeLayout>

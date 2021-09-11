@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/drawable/buttonshape.xml" value="0.2203125" />
-        <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/activity_sing_up.xml" value="0.22" />
+        <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/activity_categoria.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/activity_notificacion_bienvenida.xml" value="0.22" />
+        <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/activity_sing_up.xml" value="0.1" />
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/activity_splash.xml" value="0.25" />
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2203125" />
@@ -21,7 +23,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.18" />
+        <option name="scale" value="0.22" />
       </ProjectState>
     </option>
   </component>

@@ -2,4 +2,8 @@
     <string name="app_name">MomotoLabs</string>
     <string name="bienvenido">Bienvenido</string>
     <string name="caracteres">At least 8 characters, containing a letter and a number</string>
+    <string name="terminos">By creating an account, I agre to the </string>
+    <string name="terminos1">terms &amp; conditions and privacity policy</string>
+    <string name="bien">We have sent you an account validation code. </string>
+    <string name="mail">Please check your email.</string>
 </resources>

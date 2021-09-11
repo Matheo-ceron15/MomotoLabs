@@ -22,4 +22,10 @@ public class SingUp extends Activity {
         Intent intent = new Intent(SingUp.this, MainActivity.class);
         startActivity(intent);
     }
+
+
+    public void notificacionBienve(View view) {
+        Intent intent = new Intent(SingUp.this, NotificacionBienvenida.class);
+        startActivity(intent);
+    }
 }
