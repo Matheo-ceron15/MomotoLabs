@@ -107,11 +107,12 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_iniciar"
         android:layout_width="300dp"
-        android:layout_centerHorizontal="true"
         android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="550dp"
         android:background="@drawable/buttonshape"
+        android:onClick="categorias"
         android:text="Get started"
         android:textColor="#FFFFFF"
         android:textSize="10sp" />

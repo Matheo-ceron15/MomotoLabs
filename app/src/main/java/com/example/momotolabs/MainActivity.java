@@ -14,12 +14,16 @@ import android.view.View;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
     }
 
         public void nuevaCuenta(View view) {
 
-            Intent intent = new Intent(MainActivity.this,SingUp.class);
+            Intent intent = new Intent(MainActivity.this, SingUp.class);
+            startActivity(intent);
+        }
+
+        public void categorias(View view) {
+            Intent intent = new Intent(MainActivity.this, Categoria.class);
             startActivity(intent);
         }
     }
