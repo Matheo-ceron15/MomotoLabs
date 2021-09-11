@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MomotoLabs</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="caracteres">At least 8 characters, containing a letter and a number</string>
+</resources>
