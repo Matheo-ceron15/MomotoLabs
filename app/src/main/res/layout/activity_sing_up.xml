@@ -6,8 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".SingUp">
 
-
-
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="188dp"
@@ -45,38 +43,38 @@
 
 <!--    PRIMER NOMBRE-->
     <TextView
-    android:id="@+id/textView"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="50dp"
-    android:layout_marginTop="225dp"
-    android:text="First name" />
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="210dp"
+        android:text="First name" />
 
     <EditText
         android:id="@+id/nombre1"
         android:layout_width="320dp"
-        android:layout_height="wrap_content"
+        android:layout_height="55dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="210dp"
-        android:drawableRight="@drawable/icon"
-        android:layout_marginEnd="50dp" />
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="50dp"
+        android:drawableRight="@drawable/icon" />
 <!--    SEGUNDO NOMBRE-->
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="295dp"
+        android:layout_marginTop="285dp"
         android:text="Last name" />
 
     <EditText
         android:id="@+id/nombre2"
         android:layout_width="320dp"
-        android:layout_height="wrap_content"
+        android:layout_height="55dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="270dp"
-        android:drawableRight="@drawable/icon"
-        android:layout_marginEnd="50dp" />
+        android:layout_marginTop="305dp"
+        android:layout_marginEnd="50dp"
+        android:drawableRight="@drawable/icon" />
 
 <!--    EMAIL-->
     <TextView
@@ -84,17 +82,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="355dp"
+        android:layout_marginTop="360dp"
         android:text="E-Mail address." />
 
     <EditText
         android:id="@+id/email"
         android:layout_width="320dp"
-        android:layout_height="wrap_content"
+        android:layout_height="55dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="330dp"
-        android:drawableRight="@drawable/icono_email"
-        android:layout_marginEnd="50dp" />
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="50dp"
+        android:drawableRight="@drawable/icono_email" />
 
 <!--    CONTRASEÑA-->
     <TextView
@@ -102,46 +100,45 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Your password"
-        android:layout_marginTop="405dp"
+        android:layout_marginTop="435dp"
         android:layout_marginStart="50dp"
         />
+
     <EditText
         android:id="@+id/contraseña"
         android:layout_width="320dp"
-        android:layout_height="wrap_content"
+        android:layout_height="55dp"
         android:layout_marginStart="50dp"
+        android:layout_marginTop="455dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginTop="390dp"
         android:drawableRight="@drawable/icono_passwoard"
-        android:inputType="textPassword"
-        />
+        android:inputType="textPassword" />
 <!--    CONFIRMACION DE CONTRASEÑA-->
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Confirm your password."
-        android:layout_marginTop="475dp"
+        android:layout_marginTop="510dp"
         android:layout_marginStart="50dp"
         />
+
     <EditText
         android:id="@+id/Confirmacioncontraseña"
         android:layout_width="320dp"
-        android:layout_height="wrap_content"
+        android:layout_height="55dp"
         android:layout_marginStart="50dp"
+        android:layout_marginTop="530dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginTop="450dp"
         android:drawableRight="@drawable/icono_passwoard"
-        android:inputType="textPassword"
-        />
+        android:inputType="textPassword" />
 
     <TextView
         android:id="@+id/caracteres"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="540dp"
-
+        android:layout_marginTop="600dp"
         android:text="@string/caracteres"
         android:textSize="10dp" />
     <TextView
@@ -152,7 +149,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginTop="570dp"
+        android:layout_marginTop="610dp"
         android:textSize="12dp"
         />
     <TextView
@@ -163,7 +160,7 @@
     android:layout_centerHorizontal="true"
     android:layout_marginStart="50dp"
     android:layout_marginEnd="50dp"
-    android:layout_marginTop="580dp"
+    android:layout_marginTop="620dp"
         android:textColor="#FF6200"
     android:textSize="12dp"
     />
@@ -171,13 +168,12 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_iniciar"
         android:layout_width="300dp"
-        android:layout_centerHorizontal="true"
         android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="605dp"
+        android:layout_marginTop="660dp"
         android:background="@drawable/buttonshape"
         android:text="Create account"
         android:textColor="#FFFFFF"
-        android:onClick="notificacionBienve"
-        android:textSize="10sp" />
+        android:textSize="15sp" />
 </RelativeLayout>

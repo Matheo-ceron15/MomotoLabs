@@ -36,7 +36,7 @@
         android:text="E-Mail" />
 
     <EditText
-        android:id="@+id/et_email"
+        android:id="@+id/email"
         android:layout_width="300dp"
         android:layout_height="55dp"
         android:layout_marginStart="50dp"
@@ -95,6 +95,7 @@
         android:textSize="10dp" />
 
     <TextView
+        android:id="@+id/nuevo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
@@ -102,7 +103,7 @@
         android:text="Create new accout"
         android:onClick="nuevaCuenta"
         android:textColor="#FF6200"
-        android:textSize="10dp" />
+        android:textSize="13dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_iniciar"
@@ -110,12 +111,12 @@
         android:layout_height="55dp"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="550dp"
+        android:layout_marginTop="570dp"
         android:background="@drawable/buttonshape"
         android:onClick="categorias"
         android:text="Get started"
         android:textColor="#FFFFFF"
-        android:textSize="10sp" />
+        android:textSize="15sp" />
 
 
 </RelativeLayout>
