@@ -1,122 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="188dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="-24dp"
+        android:layout_width="fill_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitStart"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
         android:src="@drawable/header" />
 
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/logotipo" />
 
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="70dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="180dp"
-        android:layout_marginEnd="60dp"
-        android:src="@drawable/logotipo" />
+        <TextView
+            android:id="@+id/e_mail_"
+            android:layout_width="44dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="185dp"
 
-    <TextView
-        android:id="@+id/e_mail_"
-        android:layout_width="44dp"
-        android:layout_height="17dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="315dp"
-        android:layout_marginEnd="50dp"
-        android:gravity="top"
-        android:text="E-Mail" />
+            android:text="E-Mail" />
 
-    <EditText
-        android:id="@+id/email"
-        android:layout_width="300dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="320dp"
-        android:layout_marginEnd="50dp"
-        android:drawableRight="@drawable/icono_email"
-        android:hint="workdone@gmail.com"
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:drawableRight="@drawable/icono_email"
+            android:hint="workdone@gmail.com"
 
-        />
-    <!-- Password. -->
-    <TextView
-        android:id="@+id/password_"
-        android:layout_width="70dp"
-        android:layout_height="17dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="390dp"
-        android:layout_marginEnd="50dp"
-        android:text="Password"
-        android:gravity="top"
-        />
+            />
+        <!-- Password. -->
+        <TextView
+            android:id="@+id/password_"
+            android:layout_width="70dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="50dp"
+            android:text="Password"
+            />
 
-    <EditText
-        android:id="@+id/et_password"
-        android:layout_width="300dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="395dp"
-        android:layout_marginEnd="50dp"
-        android:drawableRight="@drawable/icono_passwoard"
-        android:hint="your password"
-        android:inputType="textPassword" />
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:drawableRight="@drawable/icono_passwoard"
+            android:hint="your password"
+            android:inputType="textPassword" />
 
-    <TextView
-        android:id="@+id/recuperar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="240dp"
-        android:layout_marginTop="450dp"
-        android:text="I forgot my password"
-        android:textColor="#FF6200"
-        android:textSize="10dp" />
+        <TextView
+            android:id="@+id/recuperar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="240dp"
+            android:text="I forgot my password"
+            android:textColor="#FF6200"
+            android:textSize="10dp" />
 
-    <Switch
-        android:id="@+id/recordar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="450dp" />
+        <Switch
+            android:id="@+id/recordar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="475dp"
-        android:text="Remenber password"
-        android:textSize="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:text="Remenber password"
+            android:textSize="10dp" />
 
-    <TextView
-        android:id="@+id/nuevo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="520dp"
-        android:text="Create new accout"
-        android:onClick="nuevaCuenta"
-        android:textColor="#FF6200"
-        android:textSize="13dp" />
+        <TextView
+            android:id="@+id/nuevo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="30dp"
+            android:text="Create new accout"
+            android:onClick="nuevaCuenta"
+            android:textColor="#FF6200"
+            android:textSize="13dp" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_iniciar"
-        android:layout_width="300dp"
-        android:layout_height="55dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="570dp"
-        android:background="@drawable/buttonshape"
-        android:onClick="categorias"
-        android:text="Get started"
-        android:textColor="#FFFFFF"
-        android:textSize="15sp" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_iniciar"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonshape"
+            android:onClick="categorias"
+            android:text="Get started"
+            android:layout_marginTop="30dp"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>
 
 
-</RelativeLayout>
+</LinearLayout>

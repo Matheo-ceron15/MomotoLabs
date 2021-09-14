@@ -7,7 +7,7 @@
     tools:context=".SingUp">
 
     <ImageView
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="188dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
@@ -41,7 +41,7 @@
         android:src="@drawable/check_banner" />
 
 
-<!--    PRIMER NOMBRE-->
+    <!--    PRIMER NOMBRE-->
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -58,7 +58,7 @@
         android:layout_marginTop="230dp"
         android:layout_marginEnd="50dp"
         android:drawableRight="@drawable/icon" />
-<!--    SEGUNDO NOMBRE-->
+    <!--    SEGUNDO NOMBRE-->
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -76,7 +76,7 @@
         android:layout_marginEnd="50dp"
         android:drawableRight="@drawable/icon" />
 
-<!--    EMAIL-->
+    <!--    EMAIL-->
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -94,7 +94,7 @@
         android:layout_marginEnd="50dp"
         android:drawableRight="@drawable/icono_email" />
 
-<!--    CONTRASEÑA-->
+    <!--    CONTRASEÑA-->
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -113,7 +113,7 @@
         android:layout_marginEnd="50dp"
         android:drawableRight="@drawable/icono_passwoard"
         android:inputType="textPassword" />
-<!--    CONFIRMACION DE CONTRASEÑA-->
+    <!--    CONFIRMACION DE CONTRASEÑA-->
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
@@ -153,17 +153,17 @@
         android:textSize="12dp"
         />
     <TextView
-    android:id="@+id/terminos1"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/terminos1"
-    android:layout_centerHorizontal="true"
-    android:layout_marginStart="50dp"
-    android:layout_marginEnd="50dp"
-    android:layout_marginTop="620dp"
+        android:id="@+id/terminos1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terminos1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="620dp"
         android:textColor="#FF6200"
-    android:textSize="12dp"
-    />
+        android:textSize="12dp"
+        />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_iniciar"
