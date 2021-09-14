@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".Categoria">
-
     <ScrollView
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:orientation="vertical"
@@ -18,33 +16,32 @@
             android:layout_height="wrap_content"
             >
 
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="1dp"
+                android:src="@drawable/logotipo"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="0dp"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                android:src="@drawable/image14"
+                />
+            <SearchView
+                android:id="@+id/searchView"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/buscador"
+                android:queryHint="Search your category"
+                android:layout_marginTop="-100dp"
+                android:iconifiedByDefault="false"
 
-
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:src="@drawable/logotipo"
-        android:layout_gravity="center"
-        />
-    <ImageView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:padding="0dp"
-        android:scaleType="fitStart"
-        android:adjustViewBounds="true"
-        android:src="@drawable/image14"
-        />
-    <SearchView
-        android:id="@+id/searchView"
-        android:layout_width="370dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:background="@drawable/buscador"
-        android:queryHint="Search your category"
-        android:layout_marginTop="-100dp"
-        android:iconifiedByDefault="false"
-
-        />
+                />
 
             <TextView
                 android:id="@+id/progaming"
@@ -85,7 +82,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/start_basia"
-                android:layout_marginTop="-14dp"
+                android:layout_marginTop="-13dp"
                 android:layout_marginStart="60dp"
                 />
 
@@ -132,7 +129,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/start_basia"
-                android:layout_marginTop="-14dp"
+                android:layout_marginTop="-13dp"
                 android:layout_marginStart="60dp"
                 />
 
@@ -154,41 +151,6 @@
                 android:textSize="15dp"
                 android:onClick="desing"/>
 
-
-<!--            <ImageView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:src="@drawable/star_llena"-->
-<!--                />-->
-<!--            <ImageView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:src="@drawable/star_llena"-->
-<!--                android:layout_marginStart="15dp"-->
-<!--                android:layout_marginTop="-13dp"-->
-<!--                />-->
-<!--            <ImageView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:src="@drawable/star_llena"-->
-<!--                android:layout_marginStart="30dp"-->
-<!--                android:layout_marginTop="-13dp"-->
-<!--                />-->
-<!--            <ImageView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:src="@drawable/start_basia"-->
-<!--                android:layout_marginStart="45dp"-->
-<!--                android:layout_marginTop="-14dp"-->
-<!--                />-->
-<!--            <ImageView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:src="@drawable/start_basia"-->
-<!--                android:layout_marginTop="-14dp"-->
-<!--                android:layout_marginStart="60dp"-->
-<!--                />-->
-
             <ImageView
                 android:id="@+id/otros1"
                 android:layout_width="fill_parent"
@@ -198,7 +160,12 @@
 
         </LinearLayout>
     </ScrollView>
-
-
-
-</LinearLayout>
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:id="@+id/botton_navitation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    app:menu="@menu/botton_navigation"
+    android:background="?android:attr/windowBackground"
+    />
+</RelativeLayout>

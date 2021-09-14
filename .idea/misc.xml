@@ -5,20 +5,26 @@
       <map>
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/drawable/buscador.xml" value="0.2203125" />
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/drawable/buttonshape.xml" value="0.2203125" />
+        <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.146875" />
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2203125" />
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.2203125" />
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2203125" />
-        <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/activity_categoria.xml" value="0.2" />
+        <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/activity_categoria.xml" value="0.1" />
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/activity_categorias.xml" value="0.25" />
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/activity_notificacion_bienvenida.xml" value="0.18" />
-        <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/activity_sing_up.xml" value="0.2" />
+        <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/activity_sing_up.xml" value="0.18" />
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/activity_splash.xml" value="0.25" />
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/content_categorias.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/fragment_dashboard.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/fragment_notifications.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/fragmento_home.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/fragmento_jobs.xml" value="0.11475409836065574" />
+        <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/fragmento_settings.xml" value="0.11475409836065574" />
+        <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/layout/settings.xml" value="0.1361111111111111" />
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/menu/bottom_nav_menu.xml" value="0.33" />
+        <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/menu/botton_navigation.xml" value="0.22" />
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2203125" />
       </map>
