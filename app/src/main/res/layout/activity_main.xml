@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:layout_gravity="center">
+    android:layout_gravity="center"
+    >
 
     <ScrollView
         android:layout_width="fill_parent"
@@ -112,7 +113,7 @@
             android:layout_height="55dp"
             android:layout_gravity="center"
             android:background="@drawable/buttonshape"
-            android:onClick="categorias"
+            android:onClick="IniciarSesion"
             android:text="Get started"
             android:layout_marginTop="30dp"
             android:textColor="#FFFFFF"

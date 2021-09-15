@@ -6,24 +6,28 @@ import androidx.fragment.app.Fragment;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
     public class MainActivity extends Activity {
-        private EditText mail, pass;
-
+        private EditText mail, pass1;
+        private Cursor fila;
+        BDHelper admin=new BDHelper(this,"pruebaMomotoLabs.db",null,1);
         @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        pass=findViewById(R.id.et_password);
-        mail =findViewById(R.id.email);
 
+        mail =findViewById(R.id.email);
+        pass1=findViewById(R.id.et_password);
     }
 
         public void nuevaCuenta(View view) {
@@ -32,17 +36,42 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
             startActivity(intent);
         }
 
-        public void categorias(View view) {
-            String contra = pass.getText().toString();
-            String email = mail.getText().toString();
+        public void IniciarSesion(View v){
 
-            if (email.isEmpty()){
-                mail.setError("campo obligatorio");
-            }else if(contra.isEmpty()){
-                pass.setError("campo obligatorio");
-            }else{
-                Intent intent = new Intent(MainActivity.this, Categoria.class);
-                startActivity(intent);
+
+            SQLiteDatabase db=admin.getWritableDatabase();
+
+            String usuario=mail.getText().toString();
+            String contrasena=pass1.getText().toString();
+
+
+            fila=db.rawQuery("select mail,clave_user from usuarios where mail='"+usuario+
+                    "' and clave_user='"+contrasena+"'",null);
+            try {
+                if(fila.moveToFirst()){
+                    String usua=fila.getString(0);
+                    String pass=fila.getString(1);
+                    if (usuario.equals(usua)&&contrasena.equals(pass)){
+                        Intent ven=new Intent(this, Categoria.class);
+                        startActivity(ven);
+
+                        mail.setText("");
+                        pass1.setText("");
+                    }
+                }else if (usuario.isEmpty()){
+                    mail.setError("Campo obligatorio");
+                }else if(contrasena.isEmpty()){
+                    pass1.setError("Campo obligatorio");
+                }
+                else {
+                    Toast toast=Toast.makeText(this,"Usuario y/o contraseña erroneos",Toast.LENGTH_LONG);
+                    //mostramos el toast
+                    toast.show();
+                }
+            } catch (Exception e) {
+                Toast toast=Toast.makeText(this,"Error" + e.getMessage(),Toast.LENGTH_LONG);
+                toast.show();
             }
         }
+
     }

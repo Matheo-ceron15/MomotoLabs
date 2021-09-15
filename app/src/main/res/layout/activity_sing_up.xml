@@ -5,13 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SingUp">
-
     <ImageView
         android:layout_width="fill_parent"
-        android:layout_height="188dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitStart"
         android:layout_marginTop="-24dp"
         android:src="@drawable/sing_up_header" />
 
@@ -55,7 +53,7 @@
         android:layout_width="320dp"
         android:layout_height="55dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="230dp"
+        android:layout_marginTop="220dp"
         android:layout_marginEnd="50dp"
         android:drawableRight="@drawable/icon" />
     <!--    SEGUNDO NOMBRE-->
@@ -64,7 +62,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="285dp"
+        android:layout_marginTop="275dp"
         android:text="Last name" />
 
     <EditText
@@ -72,7 +70,7 @@
         android:layout_width="320dp"
         android:layout_height="55dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="305dp"
+        android:layout_marginTop="285dp"
         android:layout_marginEnd="50dp"
         android:drawableRight="@drawable/icon" />
 
@@ -82,7 +80,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="360dp"
+        android:layout_marginTop="340dp"
         android:text="E-Mail address." />
 
     <EditText
@@ -90,7 +88,7 @@
         android:layout_width="320dp"
         android:layout_height="55dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="380dp"
+        android:layout_marginTop="350dp"
         android:layout_marginEnd="50dp"
         android:drawableRight="@drawable/icono_email" />
 
@@ -100,7 +98,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Your password"
-        android:layout_marginTop="435dp"
+        android:layout_marginTop="405dp"
         android:layout_marginStart="50dp"
         />
 
@@ -109,7 +107,7 @@
         android:layout_width="320dp"
         android:layout_height="55dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="455dp"
+        android:layout_marginTop="415dp"
         android:layout_marginEnd="50dp"
         android:drawableRight="@drawable/icono_passwoard"
         android:inputType="textPassword" />
@@ -119,7 +117,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Confirm your password."
-        android:layout_marginTop="510dp"
+        android:layout_marginTop="470dp"
         android:layout_marginStart="50dp"
         />
 
@@ -128,7 +126,7 @@
         android:layout_width="320dp"
         android:layout_height="55dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="530dp"
+        android:layout_marginTop="480dp"
         android:layout_marginEnd="50dp"
         android:drawableRight="@drawable/icono_passwoard"
         android:inputType="textPassword" />
@@ -138,7 +136,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="600dp"
+        android:layout_marginTop="560dp"
         android:text="@string/caracteres"
         android:textSize="10dp" />
     <TextView
@@ -149,7 +147,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginTop="615dp"
+        android:layout_marginTop="570dp"
         android:textSize="12dp"
         />
     <TextView
@@ -160,18 +158,18 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginTop="630dp"
+        android:layout_marginTop="580dp"
         android:textColor="#FF6200"
         android:textSize="12dp"
         />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_iniciar"
-        android:layout_width="300dp"
-        android:layout_height="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="660dp"
+        android:layout_marginTop="620dp"
         android:background="@drawable/buttonshape"
         android:text="Create account"
         android:textColor="#FFFFFF"
