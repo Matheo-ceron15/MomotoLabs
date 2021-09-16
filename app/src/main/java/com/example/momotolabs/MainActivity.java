@@ -37,14 +37,9 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
         }
 
         public void IniciarSesion(View v){
-
-
             SQLiteDatabase db=admin.getWritableDatabase();
-
             String usuario=mail.getText().toString();
             String contrasena=pass1.getText().toString();
-
-
             fila=db.rawQuery("select mail,clave_user from usuarios where mail='"+usuario+
                     "' and clave_user='"+contrasena+"'",null);
             try {

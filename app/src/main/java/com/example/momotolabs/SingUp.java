@@ -65,11 +65,7 @@ private Button btn1;
             pass.setError("campo obligatorio");
         }else if(pass2.isEmpty()){
             confpass.setError("campo obligatorio");
-        }else if(pass2 != pass1){
-            Toast.makeText(this, "Las contraseñas no coinciden", Toast.LENGTH_SHORT).show();
-            pass.setText("");
-            confpass.setText("");
-        }else{
+        }else if(pass2.equals(pass2)==true){
             db.insert("usuarios", null, values);
             db.close();
 
@@ -78,6 +74,11 @@ private Button btn1;
 
             Intent intent = new Intent(SingUp.this, NotificacionBienvenida.class);
             startActivity(intent);
+        }else{
+
+            Toast.makeText(this, "Las contraseñas no coinciden", Toast.LENGTH_SHORT).show();
+            pass.setText("");
+            confpass.setText("");
         }
     }
 }
