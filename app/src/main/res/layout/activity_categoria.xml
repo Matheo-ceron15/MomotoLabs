@@ -43,120 +43,158 @@
 
                 />
 
-            <TextView
-                android:id="@+id/progaming"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingTop="60dp"
-                android:text="Programing"
-                android:textStyle="bold"
-                android:textSize="15dp"
-                android:onClick="programing"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/star_llena"
-                />
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/star_llena"
-                android:layout_marginStart="15dp"
-                android:layout_marginTop="-13dp"
-                />
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/star_llena"
-                android:layout_marginStart="30dp"
-                android:layout_marginTop="-13dp"
-                />
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/start_basia"
-                android:layout_marginStart="45dp"
-                android:layout_marginTop="-14dp"
-                />
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/start_basia"
-                android:layout_marginTop="-13dp"
-                android:layout_marginStart="60dp"
-                />
 
-            <ImageView
-                android:id="@+id/progaming1"
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="45dp">
+        <ImageView
+            android:id="@+id/progaming1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/image10"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="-80dp">
+        <TextView
+            android:id="@+id/progaming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Programing"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:onClick="programing"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_llena"
+            android:layout_marginTop="4dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_llena"
+            android:layout_marginTop="4dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_llena"
+            android:layout_marginTop="4dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/start_basia"
+            android:layout_marginTop="4dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/start_basia"
+            android:layout_marginTop="4dp"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="-50dp">
+
+    <ImageView
+        android:id="@+id/webDesing1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mask_group"
+        android:onClick="regresar"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="-80dp">
+        <TextView
+            android:id="@+id/webDesing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Web Desing"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:onClick="desing"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_llena"
+            android:layout_marginTop="4dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_llena"
+            android:layout_marginTop="4dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_llena"
+            android:layout_marginTop="4dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/start_basia"
+            android:layout_marginTop="4dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/start_basia"
+            android:layout_marginTop="4dp"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+            <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/image10"/>
-            <TextView
-                android:id="@+id/webDesing"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Web Desing"
-                android:textStyle="bold"
-                android:textSize="15dp"
-                android:onClick="desing"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/star_llena"
-                />
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/star_llena"
-                android:layout_marginStart="15dp"
-                android:layout_marginTop="-13dp"
-                />
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/star_llena"
-                android:layout_marginStart="30dp"
-                android:layout_marginTop="-13dp"
-                />
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/start_basia"
-                android:layout_marginStart="45dp"
-                android:layout_marginTop="-14dp"
-                />
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/start_basia"
-                android:layout_marginTop="-13dp"
-                android:layout_marginStart="60dp"
-                />
+                android:orientation="vertical"
+                android:layout_marginTop="-35dp">
 
-            <ImageView
-                android:id="@+id/webDesing1"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/mask_group"
-                android:onClick="regresar"
-                />
+                <ImageView
+                    android:id="@+id/otros1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mask_group1"
+                    />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="-50dp">
+                        <TextView
+                            android:id="@+id/otros"
+                            android:textColor="@color/white"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Otros"
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            android:onClick="desing"/>
+                    </LinearLayout>
 
 
-            <TextView
-                android:id="@+id/otros"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Otros"
-                android:textStyle="bold"
-                android:textSize="15dp"
-                android:onClick="desing"/>
 
-            <ImageView
-                android:id="@+id/otros1"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/mask_group1"
-                />
+            </LinearLayout>
+
 
         </LinearLayout>
     </ScrollView>

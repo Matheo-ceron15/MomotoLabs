@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ITCA/Documents/MomotoLabs/app/src/main/res/layout/activity_categoria.xml" value="0.25" />
+        <entry key="..\:/Users/ITCA/Documents/MomotoLabs/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/ITCA/Documents/MomotoLabs/app/src/main/res/layout/activity_notificacion_bienvenida.xml" value="0.25" />
+        <entry key="..\:/Users/ITCA/Documents/MomotoLabs/app/src/main/res/layout/activity_sing_up.xml" value="0.33" />
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/drawable/buscador.xml" value="0.2203125" />
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/drawable/buttonshape.xml" value="0.2203125" />
         <entry key="..\:/Users/Usuario/Desktop/PASANTIAS/MomotoLabs/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.146875" />
