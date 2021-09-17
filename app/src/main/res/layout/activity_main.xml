@@ -78,10 +78,11 @@
             android:id="@+id/recuperar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="240dp"
+            android:layout_marginStart="220dp"
             android:text="I forgot my password"
             android:textColor="#FF6200"
-            android:textSize="10dp" />
+            android:background="@drawable/layer"
+            android:textSize="13dp" />
 
         <Switch
             android:id="@+id/recordar"
@@ -104,6 +105,7 @@
             android:layout_marginTop="30dp"
             android:text="Create new accout"
             android:onClick="nuevaCuenta"
+            android:background="@drawable/layer"
             android:textColor="#FF6200"
             android:textSize="13dp" />
 

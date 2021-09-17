@@ -28,5 +28,6 @@ public class Categoria extends Activity {
 
         Intent intent = new Intent(Categoria.this, MainActivity.class);
         startActivity(intent);
+
     }
 }

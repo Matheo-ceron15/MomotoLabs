@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SingUp">
+
     <ImageView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="-24dp"
         android:adjustViewBounds="true"
         android:scaleType="fitStart"
-        android:layout_marginTop="-24dp"
         android:src="@drawable/sing_up_header" />
 
     <TextView
@@ -131,14 +132,45 @@
         android:drawableRight="@drawable/icono_passwoard"
         android:inputType="textPassword" />
 
-    <TextView
-        android:id="@+id/caracteres"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="560dp"
-        android:text="@string/caracteres"
-        android:textSize="10dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="550dp"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/caracteres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="At least"
+            android:textSize="10dp" />
+        <TextView
+            android:id="@+id/caracteres1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" 8 characters,"
+            android:textColor="#0094FF"
+            android:textSize="10dp" />
+        <TextView
+            android:id="@+id/caractere2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" containing a"
+            android:textSize="10dp" />
+        <TextView
+            android:id="@+id/caracteres3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" letter and a number"
+            android:textColor="#0094FF"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
     <TextView
         android:id="@+id/terminos"
         android:layout_width="wrap_content"

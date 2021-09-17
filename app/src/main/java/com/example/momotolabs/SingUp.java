@@ -65,7 +65,7 @@ private Button btn1;
             pass.setError("campo obligatorio");
         }else if(pass2.isEmpty()){
             confpass.setError("campo obligatorio");
-        }else if(pass2.equals(pass2)==true){
+        }else if(pass2.equals(pass1)==true){
             db.insert("usuarios", null, values);
             db.close();
 

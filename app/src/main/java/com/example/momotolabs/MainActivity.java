@@ -34,6 +34,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
             Intent intent = new Intent(MainActivity.this, SingUp.class);
             startActivity(intent);
+            finishAffinity();
         }
 
         public void IniciarSesion(View v){
@@ -67,6 +68,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
                 Toast toast=Toast.makeText(this,"Error" + e.getMessage(),Toast.LENGTH_LONG);
                 toast.show();
             }
+
         }
 
     }
