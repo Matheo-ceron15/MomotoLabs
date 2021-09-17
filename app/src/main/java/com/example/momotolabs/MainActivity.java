@@ -34,7 +34,6 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
             Intent intent = new Intent(MainActivity.this, SingUp.class);
             startActivity(intent);
-            finishAffinity();
         }
 
         public void IniciarSesion(View v){
